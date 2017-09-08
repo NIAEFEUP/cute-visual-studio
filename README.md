@@ -14,9 +14,9 @@ If something goes wrong or is hard to understand, be sure to contact us at [ni@a
 
 ## Table of Contents
 1. [Requirements](#requirements)
-2. [First Step - Copy cute folder to the right place](#First Step - Copy cute folder to the right place)
-3. [Second Step - Install template project](#Second Step - Install template project)
-4. Finnish
+2. [Copy cute folder to the right place](#copy-cute-folder-to-the-right-place)
+3. [Install template project](#install-template-project)
+4. [Testing](#testing)
 
 ## Requirements
 
@@ -24,16 +24,18 @@ For this to work, we need to install the following programs:
 * [Visual Studio](https://www.jetbrains.com/clion/)
 * [CUTE Standalone](http://cute-test.com/projects/cute/wiki/CUTE_Standalone)
 
-## First Step - Copy cute folder to the right place
+## Copy cute folder to the right place
 
-You need to copy entire folder "cute" to your root of C disk (C:/cute)
+You need to copy entire folder "cute" to your root of C disk. After copy should be like this: "C:/cute"
 
-## Second Step - Install template project
+## Install Template Project
 
 Now you need to install the template project. For this you just need to copy the file "CUTE C++ Unit Test.zip" to your Visual Studio project templates folder. Should be something like this: "C:\Users\($personal_folder)\Documents\Visual Studio 2015\Templates\ProjectTemplates".
 
 After this you should be able to create a new project in Visual Studio and be able to run cute test.
 
-![Create Project](Create Project.png)
+![Create Project](create_project.png)
+
+## Testing
 
 ![Test](test.png)
