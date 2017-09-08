@@ -1,4 +1,4 @@
-# CUTE Library on CLion
+# CUTE Library on Visual Studio
 CUTE is an easy to use C++ unit testing framework that leverages modern C++ libraries and features. 
 Visual Studio is a cross-platform IDE multi-language made by Microsoft.
 CUTE has, currently, an Eclipse plugin that is easy to install and use. 
