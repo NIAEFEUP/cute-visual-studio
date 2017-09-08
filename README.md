@@ -26,7 +26,7 @@ For this to work, we need to install the following programs:
 
 ## First Step - Copy cute folder to the right place
 
-You need to copy entire folder "cute" to your root of C disk (C:/cute)
+You need to copy entire folder "cute" to your root of C disk. After copy should be like this: "C:/cute"
 
 ## Second Step - Install template project
 
