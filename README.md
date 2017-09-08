@@ -14,8 +14,8 @@ If something goes wrong or is hard to understand, be sure to contact us at [ni@a
 
 ## Table of Contents
 1. [Requirements](#requirements)
-2. [First Step - Copy cute folder to the right place](#copy-cute-folder-to-the-right-place)
-3. [Second Step - Install template project](#install-template-project)
+2. [Copy cute folder to the right place](#copy-cute-folder-to-the-right-place)
+3. [Install template project](#install-template-project)
 4. [Testing](#testing)
 
 ## Requirements
@@ -36,6 +36,6 @@ After this you should be able to create a new project in Visual Studio and be ab
 
 ![Create Project](create_project.png)
 
-##Testing
+## Testing
 
 ![Test](test.png)
