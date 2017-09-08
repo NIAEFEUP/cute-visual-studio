@@ -34,6 +34,6 @@ Now you need to install the template project. For this you just need to copy the
 
 After this you should be able to create a new project in Visual Studio and be able to run cute test.
 
-![Create Project](Create Project.png)
+![Create Project](create_project.png)
 
 ![Test](test.png)
