@@ -16,6 +16,7 @@ If something goes wrong or is hard to understand, be sure to contact us at [ni@a
 1. [Requirements](#requirements)
 2. [First Step - Copy cute folder to the right place](#copy-cute-folder-to-the-right-place)
 3. [Second Step - Install template project](#install-template-project)
+4. [Testing](#testing)
 
 ## Requirements
 
@@ -34,5 +35,7 @@ Now you need to install the template project. For this you just need to copy the
 After this you should be able to create a new project in Visual Studio and be able to run cute test.
 
 ![Create Project](create_project.png)
+
+##Testing
 
 ![Test](test.png)
