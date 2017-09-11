@@ -30,16 +30,16 @@ For this to work, we need to install the following programs:
 
 * Create new "Windows Console Application" project.
 
-![Create new project](new_project.jpg)
+![Create new project](create_project.jpg)
 
 * Right-click on the project name in the solution explorer (in this case is "ConsoleApplication2") and click on properties.
 * Select the "VC++ Directories" tab.
 
-![Properties](properties.jpg)
+![Properties](project_properties.jpg)
 
 * Edit the "Include Directories" property and add the cute_lib folder extracted earlier.
 
-![Add to path](add_to_path.jpg)
+![Add to path](include_directories.jpg)
 
 * Now everything should work!
 
