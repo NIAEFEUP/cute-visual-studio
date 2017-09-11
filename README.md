@@ -5,18 +5,14 @@ CUTE has, currently, an Eclipse plugin that is easy to install and use.
 This simple project aims to beginners integrate one template project with CUTE test in Visual Studio.
 
 
-
 The following tutorial was made and test with the following software:
-* Visual Studio Community 2015 Version 14.0.25425.01 Update 3
+* Visual Studio Community 2017 Version 15.3.3
 * CUTE Standalone v2.0.0
-
-If something goes wrong or is hard to understand, be sure to contact us at [ni@aefeup.pt](mailto:ni@aefeup.pt), message us on [Facebook](www.facebook.com/niaefeup) or submit a pull request here!
 
 ## Table of Contents
 1. [Requirements](#requirements)
-2. [Copy cute folder to the right place](#copy-cute-folder-to-the-right-place)
-3. [Install template project](#install-template-project)
-4. [Testing](#testing)
+2. [Download & Extract CUTE](#download-extract-cute)
+3. [Create & Configure Project](#create-configure-project)
 
 ## Requirements
 
@@ -24,18 +20,27 @@ For this to work, we need to install the following programs:
 * [Visual Studio](https://www.jetbrains.com/clion/)
 * [CUTE Standalone](http://cute-test.com/projects/cute/wiki/CUTE_Standalone)
 
-## Copy cute folder to the right place
+## Download & Extract CUTE 
 
-You need to copy entire folder "cute" to your root of C disk. After copy should be like this: "C:/cute"
+1. Download CUTE from the [website](http://cute-test.com/projects/cute/wiki/CUTE_Standalone).
+1. Extract. 
+1. Copy cute_lib to a directory of your choosing, e.g. "C:\Users\Username\Documents\"
 
-## Install Template Project
+## Create & Configure Project
 
-Now you need to install the template project. For this you just need to copy the file "CUTE C++ Unit Test.zip" to your Visual Studio project templates folder. Should be something like this: "C:\Users\($personal_folder)\Documents\Visual Studio 2015\Templates\ProjectTemplates".
+* Create new "Windows Console Application" project.
 
-After this you should be able to create a new project in Visual Studio and be able to run cute test.
+![Create new project](new_project.jpg)
 
-![Create Project](create_project.png)
+* Right-click on the project name in the solution explorer (in this case is "ConsoleApplication2") and click on properties.
+* Select the "VC++ Directories" tab.
 
-## Testing
+![Properties](properties.jpg)
 
-![Test](test.png)
+* Edit the "Include Directories" property and add the cute_lib folder extracted earlier.
+
+![Add to path](add_to_path.jpg)
+
+* Now everything should work!
+
+If something goes wrong or is hard to understand, be sure to contact us at [ni@aefeup.pt](mailto:ni@aefeup.pt), message us on [Facebook](www.facebook.com/niaefeup) or submit a pull request here!
